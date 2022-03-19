@@ -1,11 +1,10 @@
-import React from "react";
-import "./style.css";
-
+import React from 'react';
+import './style.css';
+import List from './components/List';
 export default function App() {
   return (
     <div>
-      <h1>Hello StackBlitzjk!</h1>
-      <p>Start editing to see some magic happen :)</p>
+      <List />
     </div>
   );
 }
