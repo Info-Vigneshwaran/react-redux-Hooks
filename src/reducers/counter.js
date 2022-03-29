@@ -8,7 +8,7 @@ const initialState = {
   count: 0,
 };
 
-const counter = (state = initialState, action) => {
+const counterReducer = (state = initialState, action) => {
   switch (action.type) {
     case SET_COUNTER:
       return {
@@ -30,4 +30,4 @@ const counter = (state = initialState, action) => {
   }
 };
 
-export default counter;
+export default counterReducer;
