@@ -1,10 +1,12 @@
 import React from 'react';
 import './style.css';
-import List from './components/List';
+import Counter from './components/Counter';
+
 export default function App() {
   return (
-    <div>
-      <List />
+    <div className="App">
+      <h2>React-Redux-Hooks Counter app</h2>
+      <Counter />
     </div>
   );
 }
